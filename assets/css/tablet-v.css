@@ -1,0 +1,114 @@
+@media (min-width: 768px) {
+	.show-mobile {
+		display: none !important;
+	}
+}
+
+
+@media (max-width: 970px) {
+
+	.hide-tablet-v {
+		display: none;
+	}
+
+	.container {
+		width: 100%
+	}
+
+
+	/* ** HEADER ** */
+	/* ************ */
+
+
+
+	#tiendas-list {
+		left: 410px;
+	}
+
+
+	/* ** NAV ** */
+	/* ********* */
+
+	#menu-list {
+		width: 150px;
+	}
+
+	#menu-list ul {
+		overflow: auto;
+		padding-bottom: 70px;
+	}
+
+	#menu-list ul li a {
+
+		text-align: center;
+	}
+
+	#menu-list ul li#inicio-menu a span,
+	#menu-list ul li#inicio-menu a.active span {
+		background-image: url('icons-nav/tablet/inicio.png');
+	}
+
+	#menu-list ul li#pedidos-menu a span,
+	#menu-list ul li#pedidos-menu a.active span {
+	    background-image: url('icons-nav/tablet/pedidos.png');
+	}
+
+	#menu-list ul li#proveedores-menu a span,
+	#menu-list ul li#proveedores-menu a.active span {
+	    background-image: url('icons-nav/tablet/proveedores.png');
+	}
+
+	#menu-list ul li#tiendas-menu a span,
+	#menu-list ul li#tiendas-menu a.active span {
+		background-image: url('icons-nav/tablet/tiendas.png');
+	}
+
+	#menu-list ul li#historico-menu a span,
+	#menu-list ul li#historico-menu a.active span {
+	    background-image: url('icons-nav/tablet/historico.png');
+	}
+
+	#menu-list ul li#perfil-menu a span,
+	#menu-list ul li#perfil-menu a.active span {
+	    background-image: url('icons-nav/tablet/perfil.png');
+	}
+
+	#menu-list ul li#gold-menu a span,
+	#menu-list ul li#gold-menu a.active span {
+		background-image: url('icons-nav/tablet/gold.png');
+	}
+
+	#menu-list ul li a span {
+		margin: 0 0 10px 0;
+		width: 100%;
+		height: 42px;
+		background-position: center bottom;
+	}
+
+
+	/* ** CONTENT ** */
+	/* ************* */
+
+	#content {
+		padding-top: 110px;
+	}
+	.navegacion {
+		width: 578px;
+	}
+
+
+	/* ** TARJETAS ** */
+	/* ************** */
+
+	.card .triangle a.edit-icon:hover {
+		background-image: url('../icons/mobile-edit.png');
+	}
+	.card .triangle a.remove-icon:hover {
+		background-image: url('../icons/mobile-remove.png');
+	}
+
+
+	/* ** INDEX.PHP ** */
+	/* *************** */
+
+

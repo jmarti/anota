@@ -1,0 +1,61 @@
+@media (max-width: 800px) {
+
+.container {
+	width: 768px;
+}
+
+#top-bar {
+	height: 65px;
+}
+
+#menu, #atras {
+	width: 60px;
+	height: 65px;
+}
+
+#menu {
+	background: url('../img/mobile/mobile-menu-a.png') no-repeat center;
+	background-color: #FF9D00;
+}
+
+#titulo {
+	margin-right: 201px;
+}
+
+#titulo h1 {
+	margin: 21px 0 19px;
+}
+
+#tienda a {
+	padding: 25px 0 22px 10px;
+}
+
+#tiendas-list {
+	left: 408px;
+	top: 65px;
+}
+
+#notificaciones,
+#ajustes,
+#ayuda {
+	width: 55px;
+	height: 65px;
+}
+
+#notificaciones,
+#notificaciones:hover {
+	background: url('../img/tablet/tablet-avisos.png') no-repeat center;
+}
+
+#ajustes,
+#ajustes:hover {
+	border-right: none;
+	background: url('../img/tablet/tablet-ajustes.png') no-repeat center;
+}
+
+#ayuda,
+#ayuda:hover {
+	background: url('../img/tablet/tablet-ayuda.png') no-repeat center;
+}
+
+}

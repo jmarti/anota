@@ -1,0 +1,173 @@
+@media (min-width: 969px) {
+	.show-tablet-v {
+		display: none !important;
+	}
+}
+
+@media (max-width: 1139px) {
+
+	.container {
+		width: 100%
+	}
+
+	/* ** HEADER ** */
+	/* ************ */
+	#top-bar {
+		height: 65px;
+	}
+
+	#top-bar .container {
+		height: 65px;
+	}
+
+	#menu,
+	#atras {
+		margin-right: 18px;
+		height: 65px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#menu {
+		width: 60px;
+		background-image: url('icons-nav/tablet/menu.png');
+		background-color: #FF9D00;
+
+	}
+
+	#atras {
+		width: 59px;
+		background-image: url('icons-nav/tablet/atras.png');
+		background-color: #353E53;
+		border-right: 1px solid #EEE;
+	}
+
+	#titulo {
+		margin: 20px 0;		
+	}
+
+	.navigation > li {
+		height: 65px;
+	}
+
+	#tienda > a {
+		padding: 25px 10px 22px 10px;
+	}
+
+	#tienda:hover {
+		color: #DDD;
+	}
+
+	#tiendas-list {
+		top: 65px;
+	}
+
+	#avisos a,
+	#ajustes a,
+	#ayuda a {
+		float: left;
+		height: 65px;
+		width: 55px;
+	}
+
+	#avisos a,
+	#avisos a:hover {
+		background-image: url('icons-nav/tablet/avisos.png');
+	}
+
+	#ajustes a,
+	#ajustes a:hover {
+		background-image: url('icons-nav/tablet/ajustes.png');
+	}
+
+	#ayuda a,
+	#ayuda a:hover {
+		background-image: url('icons-nav/tablet/ayuda.png');
+	}
+
+	#instruccion {
+		padding-left: 76px;
+	}
+
+	#menu-list {
+		top: 65px;
+		width: 175px;
+		display: none;
+		-webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+				box-shadow: none;
+	}
+
+	#menu-list ul li a {
+		padding: 19px 10px 15px;
+	}
+
+	#menu-list > ul > li > a.active {
+	background-color: #353E53;
+	color: #DDD;
+	}
+
+	#menu-list ul li#inicio-menu a span,
+	#menu-list ul li#inicio-menu a.active span {
+		background-image: url('icons-nav/desktop/inicio.png');
+	}
+
+	#menu-list ul li#pedidos-menu a span,
+	#menu-list ul li#pedidos-menu a.active span {
+	    background-image: url('icons-nav/desktop/pedidos.png');
+	}
+
+	#menu-list ul li#proveedores-menu a span,
+	#menu-list ul li#proveedores-menu a.active span {
+	    background-image: url('icons-nav/desktop/proveedores.png');
+	}
+
+	#menu-list ul li#tiendas-menu a span,
+	#menu-list ul li#tiendas-menu a.active span {
+		background-image: url('icons-nav/desktop/tiendas.png');
+	}
+
+	#menu-list ul li#historico-menu a span,
+	#menu-list ul li#historico-menu a.active span {
+	    background-image: url('icons-nav/desktop/historico.png');
+	}
+
+	#menu-list ul li#perfil-menu a span,
+	#menu-list ul li#perfil-menu a.active span {
+	    background-image: url('icons-nav/desktop/perfil.png');
+	}
+
+	#menu-list ul li#gold-menu a span,
+	#menu-list ul li#gold-menu a.active span {
+		background-image: url('icons-nav/desktop/gold.png');
+	}
+
+	#submenu {
+		display: none !important;
+	}
+
+	/* ** FOOTER ** */
+	/* ************ */
+
+	footer {
+		padding-left: 0;
+	}
+
+
+	/* ** CONTENT ** */
+	/* ************* */
+
+	#content {
+		padding-left: 62px;
+		padding-top: 110px;
+	}
+
+	#content.change {
+		padding-top: 68px;
+	}
+
+
+	/* ** TARJETAS ** */
+	/* ************** */
+
+}

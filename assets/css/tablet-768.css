@@ -1,0 +1,295 @@
+@media (min-width: 768px) {
+
+.container {
+	float: left;
+	width: 768px;
+	padding-bottom: 0;
+}
+
+/* ** HEADER ** */
+/* ************ */
+
+ul#top-bar {
+	width: 768px;
+}
+
+#menu, #atras {
+	width: 60px;
+	height: 65px;
+	border: none;
+}
+
+#titulo {
+	width: 525px;
+	height: 65px;
+	line-height: 3em;
+}
+
+#titulo h1 {
+	float: left;
+	margin: 12px 20px 0;
+	font-size: 1.4em;
+}
+
+#tienda {
+	display: inline-block;
+	width: 156px;
+	height: 51px;
+}
+
+#tiendas-list {
+	top: 65px;
+	left: 407px;
+}
+
+#notificaciones,
+#ajustes,
+#ayuda {
+	width: 55px;
+	height: 65px;
+	background-color: #353E53;
+}
+
+#ajustes, #ayuda {
+	display: inline-block;
+}
+
+#notificaciones {
+	background: url('../img/tablet/tablet-avisos.png') no-repeat center;
+}
+
+#ajustes {
+	border-right: none;
+	background: url('../img/tablet/tablet-ajustes.png') no-repeat center;
+}
+
+#ayuda {
+	background: url('../img/tablet/tablet-ayuda.png') no-repeat center;
+}
+
+#menu-list {
+	margin-top: 65px;
+	width: 150px;
+	height: 959px;
+}
+
+#menu-list ul li {
+	height: 115px;
+	width: 150px;
+}
+
+#menu-list ul li#ajustes-menu {
+	display: none;
+}
+
+#menu-list ul li#historico-menu {
+	display: block;
+}
+
+#menu-list ul li a {
+	padding-right: 0;
+	text-align: center;
+}
+
+/* NECESITA REVISIÓN */
+#menu-list ul li a span {
+	margin: 0 49px;
+	width: 52px;
+	height: 60px;
+}
+
+#menu-list a #inicio-icon {
+	background: url('../img/tablet/tablet-inicio.png') no-repeat center bottom;
+}
+
+#menu-list a #pedidos-icon {
+    background: url('../img/tablet/tablet-pedidos.png') no-repeat center bottom;
+}
+
+#menu-list a #proveedores-icon {
+    background: url('../img/tablet/tablet-proveedor.png') no-repeat center bottom;
+}
+
+#menu-list a #tiendas-icon {
+	background: url('../img/tablet/tablet-tiendas.png') no-repeat center bottom;
+}
+
+#menu-list a #historico-icon {
+    background: url('../img/tablet/tablet-historico.png') no-repeat center bottom;
+}
+
+#menu-list a #perfil-icon {
+    background: url('../img/tablet/tablet-perfil.png') no-repeat center bottom;
+}
+
+#menu-list a #gold-icon {
+	background: url('../img/tablet/tablet-gold-h.png') no-repeat center bottom;
+}
+
+#instruccion {
+	height: 45px;
+	width: 768px;
+	overflow: hidden;
+	top: 65px;
+	background-color: #eee;
+}
+
+#instruccion h2 {
+	font-size: 1.1em;
+	padding: 11px 0;
+	padding-left: 60px;
+}
+
+footer {
+	visibility: visible !important;
+	width: 768px;
+	height: 60px;
+}
+
+
+#content {
+	padding-top: 110px;
+	padding-left: 50px;
+	width: 718px;
+}
+
+/* p1000 */
+
+a.card {
+	width: 275px;
+	height: 175px;
+	text-align: center;
+	font-size: 1.4em;
+	margin: 0 10px 24px;
+	padding: 0;
+}
+
+a.card.tienda p {
+	position: relative;
+	top: 42px;
+	padding: 0 40px;
+}
+
+section.proveedor a.card {
+	margin: 0;
+}
+
+a.card .avisos-home{
+	display: none;
+}
+/* 
+a.card.new {
+	float: left;
+}
+*/
+
+#nuevo-pedido {
+	background-color: #FF9D00;
+	color: #fff;
+}
+
+#borradores {
+	margin-top: -40px;
+}
+
+#pedidos-confirmados {
+	margin-top: 40px;
+}
+
+
+/* p1400 */
+
+.proveedor-list {
+	float: left;
+	margin-left: 50px;
+}
+
+.proveedor {
+	margin: 18px 26px;
+	width: 260px;
+	height: 177px;
+	display: inline-block;
+}
+
+.proveedor .nombre {
+	padding-left: 16px;
+	display: block;
+	width: 100%;
+}
+
+.proveedor .nombre p {
+	margin-top: 24px;
+	font-family: 'MuseoSans-500';
+	font-size: 1.2em;
+}
+
+
+.proveedor .nombre p.one-line {
+	margin-top: 20px;
+}
+*/
+
+.proveedor .categorias {
+	margin-left: 18px;
+}
+
+.categorias p {
+	margin-top: 26px;
+	margin-bottom: 0;
+	display: block;
+	font-size: 1em;
+}
+
+.categorias ul {
+	padding-top: 4px;
+	padding-left: 5px;
+}
+
+.categorias ul li {
+	font-size: 1.15em;
+}
+
+.categorias ul li:before {
+	content: "·";
+	left: -5px;
+	position: relative;
+}
+
+#nuevo-proveedor {
+	background-color: #ff9d00;
+	float: right;
+	height: 60px;
+	padding-left: 10px;
+	border-bottom: 1px solid #eee;
+	clear: both;
+	color: #352e53;
+}
+
+#nuevo-proveedor {
+	margin: 18px 95px 18px 26px;
+	width: 260px;
+	height: 177px;
+	display: inline-block;
+}
+
+#nuevo-proveedor a {
+	padding-top: 76px;
+	display: block;
+	width: 260px;
+	height: 177px;
+	color: #fff;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+section.proveedor {
+	border-bottom: 0;
+}
+
+section.proveedor.new {
+	padding-left: 0;
+	overflow: hidden;
+	width: 270px;
+}
+
+}
